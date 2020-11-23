@@ -112,4 +112,4 @@ If you have better ideas, you can clone by yourself and pull your code to the re
 
 Thanks for using.
 
->  <small>Translate by 腾讯翻译君</small>
+>  <small>Translate by [腾讯翻译君](https://fanyi.qq.com)</small>
