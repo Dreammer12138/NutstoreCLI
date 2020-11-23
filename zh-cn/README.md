@@ -4,6 +4,8 @@
 
 Linux环境下的命令行工具
 
+Please click [here](/) to English README.
+
 # 安装
 
 ## 安装 python3.7 或者更高版本
