@@ -131,6 +131,8 @@ def push(username, password, remote_path, local_path):
             if f not in files:
                 rm(username, password, '{}/{}'.format(now_path, f))
 
+def help():
+    pass
 
 def main():
     root = os.popen('echo ~').read().replace('\n', '')
