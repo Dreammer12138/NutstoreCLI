@@ -105,9 +105,9 @@ You can change `~/.nutstore/config.json` to configure user information.
 }
 ```
 
-# Issus
+# Issues
 
-If you find bug in use, please submit Issus in this repository and I will solve it as soon as possible.
+If you find bug in use, please submit Issues in this repository and I will solve it as soon as possible.
 
 If you have better ideas, you can clone by yourself and pull your code to the repository.
 
