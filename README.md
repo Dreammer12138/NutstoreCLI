@@ -5,7 +5,7 @@
 
 Nutstore command line tool in Linux.
 
-中文README请点击[这里](/zh-cn/)
+中文README请点击[这里](./zh-cn/)
 
 # Install
 
