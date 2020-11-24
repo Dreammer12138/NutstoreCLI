@@ -165,25 +165,30 @@ def main():
         with open(config_path, 'w') as f:
             json.dump(config, f)
     
-    action = sys.argv[1]
-    if action == 'ls':
-        directorys, files = ls(username, password, url_encode(sys.argv[2][1:])).values()
-        print('Directorys:')
-        for directory in directorys[1:]:
-            print('- {}/'.format(directory))
-        print('')
-        print('Files:')
-        for f in files:
-            print('- {}'.format(f))
-        print('')
-    if action == 'mkdir':
-        mkdir(username, password, url_encode(sys.argv[2][1:]))
-    if action == 'pull':
-        pull(username, password, url_encode(sys.argv[2][1:]), sys.argv[3])
-    if action == 'push':
-        push(username, password, url_encode(sys.argv[2][1:]), sys.argv[3])
-    if action == 'rm':
-        rm(username, password, url_encode(sys.argv[2][1:]))
+    try:
+        action = sys.argv[1]
+        if action == 'ls':
+            directorys, files = ls(username, password, url_encode(sys.argv[2][1:])).values()
+            print('Directorys:')
+            for directory in directorys[1:]:
+                print('- {}/'.format(directory))
+            print('')
+            print('Files:')
+            for f in files:
+                print('- {}'.format(f))
+            print('')
+        if action == 'mkdir':
+            mkdir(username, password, url_encode(sys.argv[2][1:]))
+        if action == 'pull':
+            pull(username, password, url_encode(sys.argv[2][1:]), sys.argv[3])
+        if action == 'push':
+            push(username, password, url_encode(sys.argv[2][1:]), sys.argv[3])
+        if action == 'rm':
+            rm(username, password, url_encode(sys.argv[2][1:]))
+        if action == 'help':
+            help()
+    except Exception:
+        print('Error, please submit Issus to https://github.com/Dreammer12138/NutstoreCLI')
 
 if __name__ == '__main__':
     main()
