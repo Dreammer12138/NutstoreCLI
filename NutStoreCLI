@@ -132,7 +132,21 @@ def push(username, password, remote_path, local_path):
                 rm(username, password, '{}/{}'.format(now_path, f))
 
 def help():
-    pass
+    print(
+'''
+    Nutstore CLI a command line tool in Linux.
+
+    Usage:
+        Nutstore [ actions ] { params... }
+
+    actions:
+        ls              ls { remote_path }                      Print out the file directory in remote path.
+        mkdir           mkdir { remote_path }                   Create directory in remote path.
+        rm              rm { remote_path }                      Remove directory or file in remote path.
+        pull            pull { remote_path } { local_path }     Pull directory and file to local path from remote path.
+        push            push { remote_path } { local_path }     Push directory and file to remote path from local path.
+'''
+    )
 
 def main():
     root = os.popen('echo ~').read().replace('\n', '')
