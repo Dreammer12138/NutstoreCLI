@@ -5,7 +5,7 @@
 
 Linux环境下的命令行工具
 
-Please click [here](..) to English README.
+Please click [here](./) to English README.
 
 # 安装
 
