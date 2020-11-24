@@ -1,14 +1,15 @@
 <h1>Nutstore CLI</h1>
 
-[![PYVERSION](https://img.shields.io/badge/Python-3.7.3-blue)](https://www.python.org)  [![CURL](https://img.shields.io/badge/cURL-green)](http://curl.haxx.se)
+[![PYVERSION](https://img.shields.io/badge/Python-3.7.3-blue)](https://www.python.org)  
+[![CURL](https://img.shields.io/badge/cURL-green)](http://curl.haxx.se)
 
 Linux环境下的命令行工具
 
-Please click [here](/) to English README.
+Please click [here](..) to English README.
 
 # 安装
 
-## 安装 python3.7 或者更高版本
+<h2>安装 python3.7 或者更高版本</h2>
 
 以Debian为例
 
@@ -16,13 +17,13 @@ Please click [here](/) to English README.
 $ sudo apt install -y python3 python3-pip
 ```
 
-## 安装NutstoreCLI
+<h2>安装NutstoreCLI</h2>
 
 ```shell
 $ git clone https://github.com/Dreammer12138/NutstoreCLI.git
 ```
 
-## 修改权限并添加到全局
+<h2>修改权限并添加到全局</h2>
 
 ```shell
 $ sudo chmod a+x ./NutstoreCLI/Nutstore
@@ -31,7 +32,7 @@ $ sudo mv ./NutstoreCLI/Nutstore /usr/local/bin
 
 # 用法
 
-## ls
+<h2>ls</h2>
 
 ```shell
 $ Nutstore ls <remote_path>
@@ -41,7 +42,7 @@ $ Nutstore ls <remote_path>
 
 - `remote_path`: 远程路径
 
-## mkdir
+<h2>mkdir</h2>
 
 ```shell
 $ Nutstore mkdir <remote_path>
@@ -51,7 +52,7 @@ $ Nutstore mkdir <remote_path>
 
 - `remote_path`: 远程路径
 
-## rm
+<h2>rm</h2>
 
 ```shell
 $ Nutstore rm <remote_path>
@@ -61,7 +62,7 @@ $ Nutstore rm <remote_path>
 
 - `remote_path`: 远程路径
 
-## pull
+<h2>pull</h2>
 
 ```shell
 $ Nutstore pull <remote_path> <local_path>
@@ -72,7 +73,7 @@ $ Nutstore pull <remote_path> <local_path>
 - `remote_path`: 远程路径
 - `local_path`: 本例路径
 
-## push
+<h2>push</h2>
 
 ```shell
 $ Nutstore push <remote_path> <local_path>
