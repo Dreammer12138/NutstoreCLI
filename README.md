@@ -1,6 +1,7 @@
 <h1>Nutstore CLI</h1>
 
-[![PYVERSION](https://img.shields.io/badge/Python-3.7.3-blue)](https://www.python.org) [![CURL](https://img.shields.io/badge/cURL-green)](http://curl.haxx.se)
+[![PYVERSION](https://img.shields.io/badge/Python-3.7.3-blue)](https://www.python.org) 
+[![CURL](https://img.shields.io/badge/cURL-green)](http://curl.haxx.se)
 
 Nutstore command line tool in Linux.
 
@@ -8,7 +9,7 @@ Nutstore command line tool in Linux.
 
 # Install
 
-## Install python3.7 and later version
+<h2>Install python3.7 and later version</h2>
 
 Take Debian as an example
 
@@ -16,13 +17,13 @@ Take Debian as an example
 $ sudo apt install -y python3 python3-pip
 ```
 
-## Install NutstoreCLI
+<h2>Install NutstoreCLI</h2>
 
 ```shell
 $ git clone https://github.com/Dreammer12138/NutstoreCLI.git
 ```
 
-## Modify permissions and add to global
+<h2>Modify permissions and add to global</h2>
 
 ```shell
 $ sudo chmod a+x ./NutstoreCLI/Nutstore
@@ -31,7 +32,7 @@ $ sudo mv ./NutstoreCLI/Nutstore /usr/local/bin
 
 # Usage
 
-## ls
+<h2>ls</h2>
 
 ```shell
 $ Nutstore ls <remote_path>
@@ -41,7 +42,7 @@ Print out the file directory in remote path.
 
 - `remote_path`: Remote path in nutstore
 
-## mkdir
+<h2>mkdir</h2>
 
 ```shell
 $ Nutstore mkdir <remote_path>
@@ -51,7 +52,7 @@ Create directory in remote path.
 
 - `remote_path`: Remote path in nutstore
 
-## rm
+<h2>rm</h2>
 
 ```shell
 $ Nutstore rm <remote_path>
@@ -61,7 +62,7 @@ Remove directory or file in remote path.
 
 - `remote_path`: Remote path in nutstore
 
-## pull
+<h2>pull</h2>
 
 ```shell
 $ Nutstore pull <remote_path> <local_path>
@@ -72,7 +73,7 @@ Pull directory and file to local path from remote path.
 - `remote_path`: Remote path in nutstore
 - `local_path`: Local path
 
-## push
+<h2>push</h2>
 
 ```shell
 $ Nutstore push <remote_path> <local_path>
