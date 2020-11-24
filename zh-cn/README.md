@@ -1,6 +1,6 @@
 <h1>Nutstore CLI</h1>
 
-[![PYVERSION](https://img.shields.io/badge/Python-3.7.3-blue)](https://www.python.org)  
+[![PYVERSION](https://img.shields.io/badge/Python-3.7.3-blue)](https://www.python.org)
 [![CURL](https://img.shields.io/badge/cURL-green)](http://curl.haxx.se)
 
 Linux环境下的命令行工具
