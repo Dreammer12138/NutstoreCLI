@@ -188,7 +188,7 @@ def main():
         if action == 'help':
             help()
     except Exception:
-        print('Error, please submit Issus to https://github.com/Dreammer12138/NutstoreCLI')
+        print('Error, please submit Issues to https://github.com/Dreammer12138/NutstoreCLI')
 
 if __name__ == '__main__':
     main()
