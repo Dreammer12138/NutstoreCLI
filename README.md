@@ -5,7 +5,7 @@
 
 Nutstore command line tool in Linux.
 
-中文README请点击[这里](/zh-cn/)
+中文README请点击[这里](README_CN.md)
 
 # Install
 
@@ -17,17 +17,24 @@ Take Debian as an example
 $ sudo apt install -y python3 python3-pip
 ```
 
+<h2>Install cURL command line tool and jq</h2>
+
+Take Debian as an example
+
+```shell
+$ sudo apt install -y curl jq
+```
+
 <h2>Install NutstoreCLI</h2>
 
 ```shell
-$ git clone https://github.com/Dreammer12138/NutstoreCLI.git
+$ sudo curl `curl -s https://api.github.com/repos/Dreammer12138/NutstoreCLI/releases | jq ".[0] | .assets[0] | .browser_download_url" | sed 's/\"//g'` --output /usr/local/bin/Nutstore
 ```
 
-<h2>Modify permissions and add to global</h2>
+<h2>Modify permissions</h2>
 
 ```shell
-$ sudo chmod a+x ./NutstoreCLI/Nutstore
-$ sudo mv ./NutstoreCLI/Nutstore /usr/local/bin
+$ sudo chmod a+x /usr/local/bin/Nutstore
 ```
 
 # Usage
@@ -113,4 +120,4 @@ If you have better ideas, you can clone by yourself and pull your code to the re
 
 Thanks for using.
 
-?>  <small>Translate by [腾讯翻译君](https://fanyi.qq.com)</small>
+>  <small>Translate by [腾讯翻译君](https://fanyi.qq.com)</small>
