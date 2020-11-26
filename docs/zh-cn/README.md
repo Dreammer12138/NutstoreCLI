@@ -28,7 +28,7 @@ $ sudo apt install -y curl jq
 <h2>安装NutstoreCLI</h2>
 
 ```shell
-$ sudo curl `curl -s https://api.github.com/repos/Dreammer12138/NutstoreCLI/releases | jq ".[0] | .assets[0] | .browser_download_url" | sed 's/\"//g'` --output /usr/local/bin/Nutstore
+$ sudo sh <(curl https://gitee.com/Dreammer12138/Documents/raw/master/NutstoreCLI/go.sh)
 ```
 
 <h2>修改权限</h2>
