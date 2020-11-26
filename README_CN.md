@@ -31,12 +31,6 @@ $ sudo apt install -y curl jq
 $ sudo sh <(curl https://gitee.com/Dreammer12138/Documents/raw/master/NutstoreCLI/go.sh)
 ```
 
-<h2>修改权限</h2>
-
-```shell
-$ sudo chmod a+x /usr/local/bin/Nutstore
-```
-
 # 用法
 
 <h2>ls</h2>
